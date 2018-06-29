@@ -110,6 +110,10 @@ nav a:hover {
   color: black;
 }
 
+nav a.select {
+  text-decoration: underline;
+}
+
 a {
   color: rgb(41,151,177);
   text-decoration: none;
@@ -171,8 +175,25 @@ hr {
 .pict {
   border: 3px solid #B2A249;
   padding: 2px;
+}
+
+#Miyazaki {
   left: 2.5em;
   top: 30em;
+  position: absolute;
+  margin-left: 100px;
+}
+
+#Takahata {
+  left: 2.5em;
+  top: 95em;
+  position: absolute;
+  margin-left: 100px;
+}
+
+#Suzuki {
+  left: 2.5em;
+  top: 185em;
   position: absolute;
   margin-left: 100px;
 }
